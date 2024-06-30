@@ -6,13 +6,15 @@ Duration: **30** minutes
 
 ## Description
 
-In this exercise, you will implement an entity class hierarchy composition to store data about a certain appliances store. The class diagram of the Domain model is shown in the figure below:
-![appliences.png](appliences.png)
+In this exercise, you will implement an entity class hierarchy to represent data an appliances store. The class diagram of the Domain model is shown in the figure below:
+![appliancesOOP.png](appliancesOOP.png)
 
 ## Details
 
 These classes must have the following:
   * The fields with correct access level
+  * The classes with public access level
+  * The constructors with public access level
   * A default constructor
   * A constructor that takes values to initialize all fields as parameters
 _Note_: In the future, it's expected that objects of these classes will be transferred over a network or stored in a file or database.
