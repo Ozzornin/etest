@@ -18,6 +18,10 @@ public class Employee extends User {
         return departament;
     }
 
+    public String setDepartament(String departament) {
+        return this.departament = departament;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +

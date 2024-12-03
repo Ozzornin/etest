@@ -22,6 +22,14 @@ public class Manufacturer {
         return name;
     }
 
+    public long setId(long id) {
+        return this.id = id;
+    }
+
+    public String setName(String name) {
+        return this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Manufacturer{" +

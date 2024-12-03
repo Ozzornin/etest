@@ -36,6 +36,22 @@ public class User {
         return password;
     }
 
+    public long setId(long id) {
+        return this.id = id;
+    }
+
+    public String setName(String name) {
+        return this.name = name;
+    }
+
+    public String setEmail(String email) {
+        return this.email = email;
+    }
+
+    public String setPassword(String password) {
+        return this.password = password;
+    }
+
     @Override
     public String toString() {
         return "User{" +

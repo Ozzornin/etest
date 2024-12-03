@@ -86,6 +86,50 @@ public class Appliance {
         return power;
     }
 
+    public long setId(long id) {
+        return this.id = id;
+    }
+
+    public String setName(String name) {
+        return this.name = name;
+    }
+
+    public Employee setEmployee(Employee employee) {
+        return this.employee = employee;
+    }
+
+    public Client setClient(Client client) {
+        return this.client = client;
+    }
+
+    public Category setCategory(Category category) {
+        return this.category = category;
+    }
+
+    public String setModel(String model) {
+        return this.model = model;
+    }
+
+    public Manufacturer setManufacturer(Manufacturer manufacturer) {
+        return this.manufacturer = manufacturer;
+    }
+
+    public PowerType setPowerType(PowerType powerType) {
+        return this.powerType = powerType;
+    }
+
+    public String setCharacteristic(String characteristic) {
+        return this.characteristic = characteristic;
+    }
+
+    public String setDescription(String description) {
+        return this.description = description;
+    }
+
+    public int setPower(int power) {
+        return this.power = power;
+    }
+
     @Override
     public String toString() {
         return "Appliance{" +

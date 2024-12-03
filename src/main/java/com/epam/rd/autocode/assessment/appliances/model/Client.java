@@ -18,6 +18,10 @@ public class Client extends User {
         return card;
     }
 
+    public String setCard(String card) {
+        return this.card = card;
+    }
+
     @Override
     public String toString() {
         return "Client{" +
