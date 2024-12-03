@@ -18,8 +18,8 @@ public class Employee extends User {
         return departament;
     }
 
-    public String setDepartament(String departament) {
-        return this.departament = departament;
+    public void setDepartament(String departament) {
+        this.departament = departament;
     }
 
     @Override

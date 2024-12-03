@@ -86,48 +86,48 @@ public class Appliance {
         return power;
     }
 
-    public long setId(long id) {
-        return this.id = id;
+    public void setId(long id) {
+        this.id = id;
     }
 
-    public String setName(String name) {
-        return this.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Employee setEmployee(Employee employee) {
-        return this.employee = employee;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
-    public Client setClient(Client client) {
-        return this.client = client;
+    public void setClient(Client client) {
+        this.client = client;
     }
 
-    public Category setCategory(Category category) {
-        return this.category = category;
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
-    public String setModel(String model) {
-        return this.model = model;
+    public void setModel(String model) {
+        this.model = model;
     }
 
-    public Manufacturer setManufacturer(Manufacturer manufacturer) {
-        return this.manufacturer = manufacturer;
+    public void setManufacturer(Manufacturer manufacturer) {
+        this.manufacturer = manufacturer;
     }
 
-    public PowerType setPowerType(PowerType powerType) {
-        return this.powerType = powerType;
+    public void setPowerType(PowerType powerType) {
+        this.powerType = powerType;
     }
 
-    public String setCharacteristic(String characteristic) {
-        return this.characteristic = characteristic;
+    public void setCharacteristic(String characteristic) {
+        this.characteristic = characteristic;
     }
 
-    public String setDescription(String description) {
-        return this.description = description;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public int setPower(int power) {
-        return this.power = power;
+    public void setPower(int power) {
+        this.power = power;
     }
 
     @Override

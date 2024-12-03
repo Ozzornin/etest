@@ -36,20 +36,20 @@ public class User {
         return password;
     }
 
-    public long setId(long id) {
-        return this.id = id;
+    public void setId(long id) {
+        this.id = id;
     }
 
-    public String setName(String name) {
-        return this.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String setEmail(String email) {
-        return this.email = email;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String setPassword(String password) {
-        return this.password = password;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
